@@ -26,7 +26,8 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "12.1"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/jeantimex/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://github.com/MskhalilUm/UMCoin", :tag => "#{spec.version}" }
   spec.source_files  = "UMCoin/**/*.{h,m,swift}"
+  spec.dependency 'Alamofire'
 
 end
