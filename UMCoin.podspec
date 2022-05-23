@@ -11,7 +11,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "UMCoin"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
   spec.dependency = 'Alamofire'
 
