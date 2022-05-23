@@ -11,6 +11,13 @@
 		4967A898283B7E2D00338AF1 /* UMCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4967A88D283B7E2C00338AF1 /* UMCoin.framework */; };
 		4967A89D283B7E2D00338AF1 /* UMCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967A89C283B7E2D00338AF1 /* UMCoinTests.swift */; };
 		4967A89E283B7E2D00338AF1 /* UMCoin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4967A890283B7E2C00338AF1 /* UMCoin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4967A8AE283B812800338AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967A8AD283B812800338AF1 /* AppDelegate.swift */; };
+		4967A8B0283B812800338AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967A8AF283B812800338AF1 /* SceneDelegate.swift */; };
+		4967A8B2283B812800338AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967A8B1283B812800338AF1 /* ViewController.swift */; };
+		4967A8B5283B812800338AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4967A8B3283B812800338AF1 /* Main.storyboard */; };
+		4967A8B7283B812A00338AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4967A8B6283B812A00338AF1 /* Assets.xcassets */; };
+		4967A8BA283B812A00338AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4967A8B8283B812A00338AF1 /* LaunchScreen.storyboard */; };
+		4967A8C0283B855200338AF1 /* UMCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967A8BF283B855200338AF1 /* UMCoin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,15 @@
 		4967A891283B7E2C00338AF1 /* UMCoin.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UMCoin.docc; sourceTree = "<group>"; };
 		4967A897283B7E2D00338AF1 /* UMCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4967A89C283B7E2D00338AF1 /* UMCoinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMCoinTests.swift; sourceTree = "<group>"; };
+		4967A8AB283B812800338AF1 /* UMCoinExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMCoinExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4967A8AD283B812800338AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4967A8AF283B812800338AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4967A8B1283B812800338AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4967A8B4283B812800338AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4967A8B6283B812A00338AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4967A8B9283B812A00338AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4967A8BB283B812A00338AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4967A8BF283B855200338AF1 /* UMCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMCoin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4967A8A8283B812800338AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +78,7 @@
 			children = (
 				4967A88F283B7E2C00338AF1 /* UMCoin */,
 				4967A89B283B7E2D00338AF1 /* UMCoinTests */,
+				4967A8AC283B812800338AF1 /* UMCoinExample */,
 				4967A88E283B7E2C00338AF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +88,7 @@
 			children = (
 				4967A88D283B7E2C00338AF1 /* UMCoin.framework */,
 				4967A897283B7E2D00338AF1 /* UMCoinTests.xctest */,
+				4967A8AB283B812800338AF1 /* UMCoinExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,7 @@
 			children = (
 				4967A890283B7E2C00338AF1 /* UMCoin.h */,
 				4967A891283B7E2C00338AF1 /* UMCoin.docc */,
+				4967A8BF283B855200338AF1 /* UMCoin.swift */,
 			);
 			path = UMCoin;
 			sourceTree = "<group>";
@@ -83,6 +109,20 @@
 				4967A89C283B7E2D00338AF1 /* UMCoinTests.swift */,
 			);
 			path = UMCoinTests;
+			sourceTree = "<group>";
+		};
+		4967A8AC283B812800338AF1 /* UMCoinExample */ = {
+			isa = PBXGroup;
+			children = (
+				4967A8AD283B812800338AF1 /* AppDelegate.swift */,
+				4967A8AF283B812800338AF1 /* SceneDelegate.swift */,
+				4967A8B1283B812800338AF1 /* ViewController.swift */,
+				4967A8B3283B812800338AF1 /* Main.storyboard */,
+				4967A8B6283B812A00338AF1 /* Assets.xcassets */,
+				4967A8B8283B812A00338AF1 /* LaunchScreen.storyboard */,
+				4967A8BB283B812A00338AF1 /* Info.plist */,
+			);
+			path = UMCoinExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +175,23 @@
 			productReference = 4967A897283B7E2D00338AF1 /* UMCoinTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4967A8AA283B812800338AF1 /* UMCoinExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4967A8BC283B812A00338AF1 /* Build configuration list for PBXNativeTarget "UMCoinExample" */;
+			buildPhases = (
+				4967A8A7283B812800338AF1 /* Sources */,
+				4967A8A8283B812800338AF1 /* Frameworks */,
+				4967A8A9283B812800338AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMCoinExample;
+			productName = UMCoinExample;
+			productReference = 4967A8AB283B812800338AF1 /* UMCoinExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +206,9 @@
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					4967A896283B7E2D00338AF1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					4967A8AA283B812800338AF1 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
@@ -168,6 +228,7 @@
 			targets = (
 				4967A88C283B7E2C00338AF1 /* UMCoin */,
 				4967A896283B7E2D00338AF1 /* UMCoinTests */,
+				4967A8AA283B812800338AF1 /* UMCoinExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +248,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4967A8A9283B812800338AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967A8BA283B812A00338AF1 /* LaunchScreen.storyboard in Resources */,
+				4967A8B7283B812A00338AF1 /* Assets.xcassets in Resources */,
+				4967A8B5283B812800338AF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4967A8C0283B855200338AF1 /* UMCoin.swift in Sources */,
 				4967A892283B7E2C00338AF1 /* UMCoin.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +278,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4967A8A7283B812800338AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4967A8B2283B812800338AF1 /* ViewController.swift in Sources */,
+				4967A8AE283B812800338AF1 /* AppDelegate.swift in Sources */,
+				4967A8B0283B812800338AF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +297,25 @@
 			targetProxy = 4967A899283B7E2D00338AF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4967A8B3283B812800338AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4967A8B4283B812800338AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4967A8B8283B812A00338AF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4967A8B9283B812A00338AF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4967A89F283B7E2D00338AF1 /* Debug */ = {
@@ -349,6 +450,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +478,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +497,7 @@
 		4967A8A5283B7E2D00338AF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +513,7 @@
 		4967A8A6283B7E2D00338AF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +521,60 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hachtechs.UMCoinTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4967A8BD283B812A00338AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMCoinExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hachtechs.UMCoinExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4967A8BE283B812A00338AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UMCoinExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hachtechs.UMCoinExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +606,15 @@
 			buildConfigurations = (
 				4967A8A5283B7E2D00338AF1 /* Debug */,
 				4967A8A6283B7E2D00338AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4967A8BC283B812A00338AF1 /* Build configuration list for PBXNativeTarget "UMCoinExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4967A8BD283B812A00338AF1 /* Debug */,
+				4967A8BE283B812A00338AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
